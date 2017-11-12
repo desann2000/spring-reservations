@@ -1,31 +1,25 @@
-@CHARSET "ISO-8859-1";
 
-label,
-button {
-    display: block;
-    margin-top: 15px;
-}
-
-.message {
+div.message {
     display: none;
 }
-body{
 
-/*background-image:  url('http://i.vimeocdn.com/video/236980703_1280x720.jpg');*/
+body{
 background-color: grey;
 }
+
 h1 {
-	
-    color: white;
+	 color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
+
  #header{
  	background-size: 864px 340px;
     background-repeat: no-repeat;
     background-image:  url('http://i.vimeocdn.com/video/236980703_1280x720.jpg');
 }
+
 div.fullcontent{
-	background-color: #c0c0c0;
+	background-color: grey;
 	margin-left: auto;
     margin-right: auto;
     width:864px;

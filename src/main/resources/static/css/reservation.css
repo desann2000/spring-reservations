@@ -9,3 +9,24 @@ button {
 .message {
     display: none;
 }
+body{
+
+/*background-image:  url('http://i.vimeocdn.com/video/236980703_1280x720.jpg');*/
+background-color: grey;
+}
+h1 {
+	
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+ #header{
+ 	background-size: 864px 340px;
+    background-repeat: no-repeat;
+    background-image:  url('http://i.vimeocdn.com/video/236980703_1280x720.jpg');
+}
+div.fullcontent{
+	background-color: #c0c0c0;
+	margin-left: auto;
+    margin-right: auto;
+    width:864px;
+}	

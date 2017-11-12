@@ -6,10 +6,15 @@
   <link rel="stylesheet" type="text/css" href="/css/reservation.css" />
 </head>
 <body>
-
+<div class="fullcontent">
+<div id="header" align="center" style="width:864px; height:300px;">
+    
+    <h1>Welcome to the Shining Hotel</h1>
+    
+</div>
   <form id="reservationForm">
     <label>Facility ID:</label>
-    <input name="resourceId" type="input" />
+    <input name="resourceId" type="input">
   
     <label>Start Date:</label>
     <input name="fromDate"   type="date" />
@@ -30,9 +35,13 @@
   <div id="reservation-successful-message" class="message">
     Your reservation has been successfully processed. Your reservation id is: <span id="reservationId" />.
   </div>
-
+  <br/>
+<form action="index.html">
+    <input type="submit" value="Main page!" />
+</form>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="js/reservation.js"></script>
+</div>
 
 </body>
 </html>
